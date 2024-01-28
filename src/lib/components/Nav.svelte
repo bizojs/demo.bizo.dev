@@ -24,7 +24,7 @@
          }
       }}
    >
-      <button type="submit" class="cursor-pointer select-none items-center">
+      <button type="submit" class="cursor-pointer select-none items-center rounded">
          <input
             type="checkbox"
             bind:checked={dark}

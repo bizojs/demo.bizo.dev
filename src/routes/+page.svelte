@@ -1,3 +1,7 @@
+<svelte:head>
+	<title>bizo demos</title>
+</svelte:head>
+
 <script>
 	import Navigation from "$lib/components/Navigation.svelte"
 	import { keybind } from "$lib/util"

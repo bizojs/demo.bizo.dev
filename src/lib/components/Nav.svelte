@@ -11,7 +11,7 @@
   }
 </script>
 
-<nav class="flex items-center justify-between py-3 px-5 m-4 rounded-md bg-nav-light/80 dark:bg-nav-dark/50">
+<nav class="flex items-center justify-between py-3 px-5 lg:m-4 m-0 mb-10 rounded-md bg-nav-light/80 dark:bg-nav-dark/50">
    <a href="/" class="py-1 px-2 rounded hover:bg-btn-light/80 dark:hover:bg-btn-dark/60 transition">Home</a>
    <form
       method="post"

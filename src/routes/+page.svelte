@@ -40,7 +40,7 @@
 					<p class="text-lg">N</p>
 				</span>
 			</div>
-			<button class="lg:hidden flex p-1 rounded relative border-2 border-btn-light dark:border-border-dark/20">
+			<button class="lg:hidden flex relative">
 				<svg class="w-8 h-8 stroke-secondary-dark dark:stroke-secondary-light" xmlns="http://www.w3.org/2000/svg" width="44" height="44" viewBox="0 0 24 24" stroke-width="1" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
 					<path stroke="none" d="M0 0h24v24H0z" fill="none"/>
 					<path d="M8 13v-8.5a1.5 1.5 0 0 1 3 0v7.5" />

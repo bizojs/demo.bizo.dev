@@ -27,7 +27,7 @@
         on:outclick={() => dispatch("close")}
         on:escape={() => dispatch("close")}
         transition:scale={{ duration: 350, start: 0.9, easing: quintOut }}
-        class="flex flex-col lg:min-w-[40%] lg:w-[40%] w-[90%] min-h-[12rem] h-1/2 rounded-lg gap-2 py-6 px-6 mt-10"
+        class="flex flex-col lg:min-w-[40%] lg:w-[40%] w-full min-h-[12rem] h-1/2 rounded-lg gap-2 py-6 px-6 lg:mt-10"
     >
         <div class="relative w-full">
             <svg class="w-8 h-8 stroke-primary-dark dark:stroke-primary-light absolute top-1/2 -translate-y-1/2 left-2" xmlns="http://www.w3.org/2000/svg" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">

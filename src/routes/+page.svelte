@@ -21,7 +21,7 @@
 </script>
 
 <div use:keybind={{ key: "N" }} on:keybind={toggleNavigation} class="flex flex-col gap-10 lg:m-40">
-	<p class="text-4xl lg:text-left text-center my-10">Welcome to bizo demos</p>
+	<p class="text-4xl lg:text-left text-center my-10">Welcome to <a href="https://bizo.dev" target="_blank" rel="noreferrer" class="text-primary-light/50 dark:text-primary-dark/60">bizo</a> demos</p>
 	<div class="select-none w-full">
 		<button on:click={toggleNavigation} class="flex gap-2 items-center rounded-lg bg-secondary-light/80 hover:bg-secondary-light dark:bg-secondary-dark/40 dark:hover:bg-secondary-dark/60 w-full p-3 justify-between transition">
 			<div class="flex items-center gap-4">

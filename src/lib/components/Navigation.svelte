@@ -16,13 +16,13 @@
 
     function search() {
         if (!query) filtered = pages
-        filtered = filtered.filter(page => page.name.toLowerCase().includes(query.toLowerCase()))
+        filtered = filtered.filter(page => page.toLowerCase().includes(query.toLowerCase()))
     }
 
     const dispatch = createEventDispatcher()
     function redirectTo(page) {
         dispatch("navigate")
-        goto(page.url)
+        goto(page.split(" ").join("-").toLowerCase())
     }
 </script>
 
@@ -46,7 +46,7 @@
         <div class="flex flex-col gap-1 bg-primary-light/95 dark:bg-primary-dark/95 rounded-b-lg p-2 h-full border-2 border-t border-border-light/30 dark:border-border-dark/30">
             {#each filtered as page}
                 <button on:click={() => redirectTo(page)} class="flex justify-between items-center p-3 hover:bg-secondary-light dark:hover:bg-secondary-dark/30 w-full text-start rounded transition text-primary-light/60 dark:text-primary-dark/60 hover:text-primary-light dark:hover:text-primary-dark group">
-                    <p>{page.name}</p>
+                    <p>{page}</p>
                     <svg class="w-6 h-6 stroke-primary-dark/0 dark:stroke-primary-light/0 group-hover:stroke-primary-dark dark:group-hover:stroke-primary-light transition" xmlns="http://www.w3.org/2000/svg" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
                         <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
                         <path d="M12.5 16h-8.5a1 1 0 0 1 -1 -1v-10a1 1 0 0 1 1 -1h16a1 1 0 0 1 1 1v8" />

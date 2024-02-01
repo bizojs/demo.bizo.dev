@@ -25,6 +25,10 @@ export default {
         border: {
           light: "#393C43",
           dark: "#B0BABF"
+        },
+        dialog: {
+          light: "#DBDFE7",
+          dark: "#202125"
         }
       },
       textColor: {

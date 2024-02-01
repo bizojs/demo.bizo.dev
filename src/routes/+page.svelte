@@ -9,10 +9,8 @@
 	$: navigating = false
 
 	const pages = [
-		{
-			name: "Theme Switcher",
-			url: "/theme-switcher"
-		}
+		"Theme Switcher",
+		"Event Dispatcher",
 	]
 
 	function toggleNavigation() {

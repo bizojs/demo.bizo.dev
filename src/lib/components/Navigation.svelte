@@ -1,7 +1,7 @@
 <script>
     import { fade, scale } from "svelte/transition"
     import { createEventDispatcher } from "svelte"
-    import { clickOutside } from "$lib/util"
+    import { clickOutside } from "$lib/actions"
     import { quintOut } from "svelte/easing"
     import { goto } from "$app/navigation"
     import { onMount } from "svelte"

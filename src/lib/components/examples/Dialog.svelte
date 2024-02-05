@@ -1,7 +1,7 @@
 <script>
     import { fade, scale } from "svelte/transition"
     import { createEventDispatcher } from "svelte"
-    import { clickOutside } from "$lib/util"
+    import { clickOutside } from "$lib/actions"
     import { quintOut } from "svelte/easing"
 
     const dispatch = createEventDispatcher()

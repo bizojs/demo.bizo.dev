@@ -4,7 +4,7 @@
 
 <script>
 	import Navigation from "$lib/components/Navigation.svelte"
-	import { keybind } from "$lib/util"
+	import { keybind } from "$lib/actions"
 
 	$: navigating = false
 
